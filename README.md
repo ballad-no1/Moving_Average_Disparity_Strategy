@@ -96,7 +96,7 @@ Mocking_Average_Disparity_Strategy
 ```
 
 5. 매도(이격도조건)
-   -이격도가 100.227로, 매도기준인 100.2를 넘었으므로 매도.
+   - 이격도가 100.227로, 매도기준인 100.2를 넘었으므로 매도.
 ```text
 2026-06-08 14:50:57 | INFO | samsung_auto_trader | Sell signal detected. disparity=100.227 return_rate=0.00336 holding_seconds=90.3
 2026-06-08 14:50:57 | INFO | samsung_auto_trader | Holdings before sell. quantity=10
