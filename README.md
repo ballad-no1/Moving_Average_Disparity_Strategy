@@ -2,7 +2,7 @@
 
 - 한국투자증권 OPEN API의 모의투자 환경에서 삼성전자(005930)를 대상으로 하는 초단기 이격도 매매전략
 - 전략은 한국투자증권의 github repository인 open-trading-api의 strategy_05를 참고하였음
-- Prompt는 교수님의 notion을 참고하였음 (https://financial-engineering.notion.site/Prompts-32d7aa6d9f28800bb792c009879bf7c3)
+- Prompt는 연세대 경제학부 김주철교수님의 notion을 참고하였음 (https://financial-engineering.notion.site/Prompts-32d7aa6d9f28800bb792c009879bf7c3)
 
 ## 1. 전략 설명
 
