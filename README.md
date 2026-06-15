@@ -95,7 +95,7 @@ Mocking_Average_Disparity_Strategy
 2026-06-08 12:55:35 | INFO | samsung_auto_trader | Buy execution seems to have occurred.
 ```
 
-5. 매도(이격도조건)
+5.1 매도(이격도조건)
    - 이격도가 100.227로, 매도기준인 100.2를 넘었으므로 매도.
 ```text
 2026-06-08 14:50:57 | INFO | samsung_auto_trader | Sell signal detected. disparity=100.227 return_rate=0.00336 holding_seconds=90.3
@@ -104,7 +104,7 @@ Mocking_Average_Disparity_Strategy
 2026-06-08 14:51:17 | INFO | samsung_auto_trader | Account snapshot. symbol=005930 holding_qty=0 avg_price=0 account_value=499454657
 ```
 
-6. 매도(손절조건)
+5.2 매도(손절조건)
    - 손실이 0.491%로, 손절조건인 -0.4%가 넘었으므로 매도.
 ```text
 2026-06-08 13:54:44 | INFO | samsung_auto_trader | Sell signal detected. disparity=99.542 return_rate=-0.00491 holding_seconds=57.3
@@ -115,7 +115,7 @@ Mocking_Average_Disparity_Strategy
 2026-06-08 13:55:03 | INFO | samsung_auto_trader | Sell execution seems to have occurred.
 ```
 
-7. 매도(시간청산)
+5.3 매도(시간청산)
    - 주식 보유 시간이 189.9초로, 시간청산 기준인 180초를 넘었으므로 매도.
 ```text
 2026-06-08 13:51:03 | INFO | samsung_auto_trader | Sell signal detected. disparity=100.155 return_rate=0.00328 holding_seconds=189.9
